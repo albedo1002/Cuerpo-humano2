@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.titulo {
+    border: 1px solid white;
+    height: 2px;
+    background-color: aqua;
+}
+.contiene_menu {
+   text-align: center;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    width: 355px;
+    max-width: 50%;
+    margin: auto;
+    background-color: rgba(0, 100, 0, 0.575);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu li a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: white;
+}
+.menu li a:hover {
+    background-color: greenyellow;
+    color: darkslategrey;
+}
+.menu li {
+    display: inline-block;
+   
+}
+.contiene_menu h3 {
+    margin-top: 12px;
+    height: 24px;
+    font-size: 36px;
+    font-family: Calibri, sans-serif;
+    color: white;
+}
+.fondo_titulo {
+    background-color: rgba(0, 100, 0, 0.089);
+}

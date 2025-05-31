@@ -1,0 +1,22 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imagen_general {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+img {
+    width: 240px;
+    display: block;
+    margin: auto;
+}
+.contenedor {
+
+}
+.link {
+    border-radius: 12px;
+}
+.link a {
+    text-decoration: none;
+  }
