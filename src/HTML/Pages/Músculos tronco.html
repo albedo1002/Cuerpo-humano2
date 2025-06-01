@@ -11,16 +11,39 @@
 
 <body>
     <div class="link"
-        style="width: 107px; padding: 2px; border-width: 6px; border-style: groove; border-color: rgb(30, 136, 30); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">
+    style="width: 107px; padding: 2px; border-width: 6px; border-style: groove; border-color: rgb(30, 136, 30); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">
         <a href="../../Index.html">Volver al cuerpo</a>
     </div>
     <div class="juntos">
-        <img class="imagen_general1" src="../Media/Tronco.jpg" alt="">
+        <!-- Primer mapa -->
+        <img class="imagen_general1" src="../Media/Tronco.jpg" alt="" usemap="#tronco">
+        <map name="tronco">
+            <area target="_self" alt="Pectoral mayor" title="Pectoral mayor" href="#pectoral_mayor"
+                coords="0,34,9,40,16,52,21,67,27,78,35,83,40,89,48,89,59,83,67,76,72,68,75,57,77,48,74,38,71,27,69,16,51,16,39,23,19,29,6,29"
+                shape="poly">
+            <area target="_self" alt="Pectoral mayor" title="Pectoral mayor" href="#pectoral_mayor"
+                coords="94,16,105,16,115,18,122,22,135,28,146,28,155,28,159,30,163,37,147,38,143,46,141,57,137,70,128,79,121,85,115,90,110,89,107,82,95,78,88,74,83,65,83,53,85,42,89,32,89,24"
+                shape="poly">
+            <area target="_self" alt="Oblicuo mayor del abdomen" title="Oblicuo mayor del abdomen"
+                href="#oblicuo_mayor_abdomen"
+                coords="46,91,46,112,47,125,47,140,47,155,50,167,53,190,59,213,62,220,54,220,45,203,36,191,27,182,25,166,28,155,28,145,28,127,25,119,24,111,21,98,23,85,19,70,24,76,33,82,38,88"
+                shape="poly">
+            <area target="_self" alt="Oblicuo mayor del abdomen" title="Oblicuo mayor del abdomen"
+                href="#oblicuo_mayor_abdomen"
+                coords="94,220,97,212,105,192,108,181,109,162,110,152,111,141,111,133,110,118,112,109,110,89,115,91,121,85,128,80,135,74,138,88,136,96,136,107,133,115,133,123,131,132,129,142,131,153,133,160,132,175,131,183,126,192,117,200,111,207,107,213,104,220"
+                shape="poly">
+            <area target="_self" alt="Recto abdominal" title="Recto abdominal" href="#recto_abdominal"
+                coords="47,90,55,86,63,80,71,77,82,76,90,78,106,82,109,90,111,106,109,117,110,125,111,138,109,152,107,162,107,171,107,180,103,196,93,220,63,220,58,206,54,192,51,173,51,164,47,154,48,136,48,123,46,112"
+                shape="poly">
+        </map>
+        <!-- Segundo mapa -->
         <img class="imagen_general" src="../Media/Espalda músculos.jpg" alt="">
+
     </div>
     <ul>
         <h3>Músculos del frente toráxico y abdómen</h3>
-        <li>Pectoral mayor</li>
+        <a id="pectoral_mayor"></a>
+        <li>Pectoral mayor</li> 
         <p>El músculo pectoral mayor es un músculo pareado y superficial localizado en la cara anterior de la
             caja torácica. Si te gusta mucho el gimnasio, seguro oíste llamarlos músculos pectorales,
             o simplemente pectorales. El pectoral mayor tiene un amplio origen, por lo que se divide en
@@ -31,6 +54,7 @@
             costoesternal permite la extensión del brazo flexionado traccionándolo hacia abajo.
         </p>
         <img src="../Media/Pectoral mayor.jpg" alt="">
+        <a id="oblicuo_mayor_abdomen"></a>
         <li>Oblicuo mayor del abdómen</li>
         <p>
             El oblicuo mayor es un músculo con fibras estriadas esqueléticas, que es clasificado dentro de la
@@ -41,7 +65,8 @@
             <br>
             <img src="../Media/Oblicuo mayor  del tronco.jpg" alt="">
         </p>
-        <li>Recto abdominal</li>
+        <a id="recto_abdominal"></a>
+        <li>Recto abdominal</li> 
         <p>
             El recto abdominal es un músculo par, largo y aplanado que se encuentra en la parte anterior del abdomen,
             a ambos lados de la línea alba, una banda de tejido conectivo que lo separa en dos mitades verticales. Se
@@ -57,7 +82,8 @@
         </p>
         <img src="../Media/Recto abdominal.png" alt="">
         <h3>Músculos de la espalda</h3>
-        <li>Trapecio</li>
+        <a id="trapecio"></a>
+        <li>Trapecio</li> 
         <p>El músculo trapecio es un músculo grande, superficial y de forma triangular que se encuentra en la parte
             posterior del cuello
             y la parte superior de la espalda, extendiéndose desde la base del cráneo hasta la mitad de la columna
@@ -67,7 +93,8 @@
             en la extensión y rotación lateral del cuello y la columna vertebral.
         </p>
         <img src="../Media/Musculo-trapecio.png" alt="">
-        <li>Dorsal ancho</li>
+        <a id="dorsal_ancho"></a>
+        <li>Dorsal ancho</li> 
         <p>Es el músculo más ancho del cuerpo humano. Es un músculo plano y triangular que se encuentra en la parte
             posterior del tronco,
             cubriendo casi toda la superficie de la espalda en los dos tercios inferiores, excepto el trapecio. <br>
@@ -99,7 +126,8 @@
         </ul>
         </p>
         <img src="../Media/Dorsal ancho.jpeg" alt="">
-        <li>Romboides</li>
+        <a id="romboides"></a>
+        <li>Romboides</li> 
         <p>El músculo romboides está formado por dos músculos bilaterales:
         <ul>
             <li>El romboides menor se origina en el ligamento nucal y en las apófisis espinosas de la séptima
@@ -126,42 +154,50 @@
         </ul>
         </p>
         <img src="../Media/músculo-romboides.jpg" alt="">
-        <li>Elevador de escápula</li>
-        <p>Es un músculo largo y delgado situado en la parte posterior y lateral del cuello, que se 
-            extiende desde los procesos transversos de las primeras cuatro vértebras cervicales (C1-C4) 
+        <a id="elevador_escapula"></a>
+        <li>Elevador de escápula</li> 
+
+        <p>Es un músculo largo y delgado situado en la parte posterior y lateral del cuello, que se
+            extiende desde los procesos transversos de las primeras cuatro vértebras cervicales (C1-C4)
             hasta el ángulo superior y el borde medial de la escápula. <br>
-            Su función principal es elevar la escápula, es decir, levantar el omóplato, y también retraer la 
-            cintura escapular a nivel de la articulación escapulotorácica. Además, contribuye a la rotación 
-            inferior de la cavidad glenoidea,estabiliza la escápula contra la caja torácica y participa en 
+            Su función principal es elevar la escápula, es decir, levantar el omóplato, y también retraer la
+            cintura escapular a nivel de la articulación escapulotorácica. Además, contribuye a la rotación
+            inferior de la cavidad glenoidea,estabiliza la escápula contra la caja torácica y participa en
             la postura y movimientos del cuello, como la flexión lateral ipsilateral (cuando se contrae de un
-             solo lado) y la extensión del cuello (cuando se contraen ambos lados).
+            solo lado) y la extensión del cuello (cuando se contraen ambos lados).
         </p>
         <img src="../Media/Elevador de escápula.jpg" alt="">
-        <li>Sarrato posterior</li>
+        <a id="sarrato_posterior"></a>
+        <li>Sarrato posterior</li> 
         <p>
-            El serrato posterior es un músculo de la región superior de la espalda que se divide en dos 
+            El serrato posterior es un músculo de la región superior de la espalda que se divide en dos
             partes: el serrato posterior superior y el serrato posterior inferior.
-            <ul>
-                <li>Serrato posterior superior: se origina en el ligamento nucal y en las apófisis 
-                    espinosas de las vértebras cervicales C7 a torácicas T3, y se inserta en los bordes 
-                    superiores de las costillas 2 a 5. Su función principal es elevar estas costillas, 
-                    ayudando en la inspiración durante la respiración.</li>
-                <li>Serrato posterior inferior: se origina en las apófisis espinosas de las vértebras 
-                    torácicas T11 a lumbares L2, y se inserta en los bordes inferiores de las costillas 
-                    9 a 12. Su función es deprimir estas costillas, facilitando la espiración.</li>
-            </ul>
+        <ul>
+            <li>Serrato posterior superior: se origina en el ligamento nucal y en las apófisis
+                espinosas de las vértebras cervicales C7 a torácicas T3, y se inserta en los bordes
+                superiores de las costillas 2 a 5. Su función principal es elevar estas costillas,
+                ayudando en la inspiración durante la respiración.</li>
+            <li>Serrato posterior inferior: se origina en las apófisis espinosas de las vértebras
+                torácicas T11 a lumbares L2, y se inserta en los bordes inferiores de las costillas
+                9 a 12. Su función es deprimir estas costillas, facilitando la espiración.</li>
+        </ul>
         </p>
         <div class="juntos">
-        <img class="sarrato_posterior" src="../Media/Sarrato posteriro superior.jpg" alt="">
-        <img class="sarrato_posterior" src="../Media/Sarrato posteriro inferior.jpeg" alt="">
-        
-    </div>
+            <img class="sarrato_posterior" src="../Media/Sarrato posteriro superior.jpg" alt="">
+            <img class="sarrato_posterior" src="../Media/Sarrato posteriro inferior.jpeg" alt="">
+
+        </div>
     </ul>
-    <footer>
-        <a
-            href="https://www.freepik.es/fotos-premium/figura-medica-3d-que-muestra-abduccion-aduccion-hombro_3142024.htm#from_element=cross_selling__photo">Imagen
-            de kjpargeter en Freepik</a>
-    </footer>
+
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            imageMapResize();
+        });
+
+    </script>
+
+    <script src="../../js/imageMapResizer.min.js"></script>
 </body>
 
 </html>
