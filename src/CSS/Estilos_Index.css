@@ -42,3 +42,6 @@ body {
 .fondo_titulo {
     background-color: rgba(0, 100, 0, 0.089);
 }
+.Cuerpo {
+    filter: drop-shadow(16px 16px)
+}
